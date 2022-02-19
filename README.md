@@ -1,6 +1,6 @@
 # 👋 CSsociety website
 
-Created using react
+Created using react!
 
 ### HomePage
 ### AboutPage
