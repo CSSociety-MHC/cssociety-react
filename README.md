@@ -3,6 +3,6 @@
 Created using react!
 
 ### HomePage
-### AboutPage
+### AboutPage (components)
 ### InitiativePage
-### OpportunityPage
+### OpportunityPage (components)
