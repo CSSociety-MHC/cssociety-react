@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <>
             <div className='home-container'>
-                Home
+                Home Adle's Change
             </div>
 
         </>
