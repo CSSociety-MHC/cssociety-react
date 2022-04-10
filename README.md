@@ -2,7 +2,7 @@
 
 Created using react!
 
-### HomePage
-### AboutPage (components)
-### OpportunityPage
-### ResourcePage (components)
+#### HomePage
+#### AboutPage (components)
+#### OpportunityPage
+#### ResourcePage (components)
