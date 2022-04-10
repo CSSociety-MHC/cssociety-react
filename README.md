@@ -4,5 +4,5 @@ Created using react!
 
 ### HomePage
 ### AboutPage (components)
-### InitiativePage
-### OpportunityPage (components)
+### OpportunityPage
+### ResourcePage (components)
