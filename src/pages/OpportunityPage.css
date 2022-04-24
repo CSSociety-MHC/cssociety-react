@@ -1,15 +1,5 @@
 .opportunity-container {
-    padding-top: 120px;
-}
-
-.opportunity-oops {
-    color: orange;
-    font-size: 48px;
-    font-weight: 600;
-    padding-top: 80px;
-}
-
-.opportunity-explain {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 160px;
+    padding-left: 120px;
+    padding-right: 120px;
 }

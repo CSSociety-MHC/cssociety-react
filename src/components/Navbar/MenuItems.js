@@ -19,9 +19,9 @@ export const MenuItems = [
         url: '/opportunity',
         cName: 'nav-links'
     },
-    {
-        title: 'Resources',
-        url: '/resource',
-        cName: 'nav-links'
-    },
+    // {
+    //     title: 'Resources',
+    //     url: '/resource',
+    //     cName: 'nav-links'
+    // },
 ]

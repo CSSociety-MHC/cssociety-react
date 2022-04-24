@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inria Sans', sans-serif;
   }
 
 .flex {
@@ -11,6 +12,141 @@
   flex-direction: column;
 }
 
+.row {
+  flex-direction: row;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.justify-spacebtw {
+  justify-content: space-between;
+}
+
+.width-40pc {
+  width: 40%;
+}
+
+
+.bg-white {
+  background-color: white;
+}
+
+
+.font-s {
+  font-size: 14px;
+}
+
+.font-m {
+  font-size: 18px;
+}
+
+.font-ml {
+  font-size: 24px;
+}
+
+.font-l {
+  font-size: 32px;
+}
+
+.font-xl {
+  font-size: 48px;
+}
+
+.gray {
+  color: #656565;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+.opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.libre {
+  font-family: 'Libre Bodoni', serif;
+}
+
+.padding-top-4 {
+  padding-top: 4px;
+}
+
+.padding-top-8 {
+  padding-top: 8px;
+}
+
+.padding-top-16 {
+  padding-top: 16px;
+}
+
+.padding-top-32 {
+  padding-top: 32px;
+}
+
+.padding-top-48 {
+  padding-top: 48px;
+}
+
+.padding-top-64 {
+  padding-top: 64px;
+}
+
+.padding-top-96 {
+  padding-top: 96px;
+}
+
+.padding-top-120 {
+  padding-top: 120px;
+}
+
+.padding-top-240 {
+  padding-top: 240px;
+}
+
+.padding-bottom-8 {
+  padding-bottom: 8px;
+}
+
+.padding-bottom-16 {
+  padding-bottom: 16px;
+}
+
+.padding-bottom-32 {
+  padding-bottom: 32px;
+}
+
+.padding-left-4 {
+  padding-left: 4px;
+}
+
+.padding-left-8 {
+  padding-left: 8px;
+}
+
+.padding-left-12 {
+  padding-left: 12px;
+}
+
+.padding-right-4 {
+  padding-right: 4px;
+}
+
+.padding-right-8 {
+  padding-right: 8px;
+}
+
+.padding-right-12 {
+  padding-right: 12px;
 }

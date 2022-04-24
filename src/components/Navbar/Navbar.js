@@ -25,8 +25,8 @@ function Navbar() {
                         return(
                             <div className="dropdown">
                                 <button className="dropbtn">Who we are</button>
-                                <div className={isAboutClicked ? "" : "dropdown-content"} >
-                                    <div className='flex column font-l'>
+                                <div className={isAboutClicked ? "bg-white" : "bg-white dropdown-content"} >
+                                    <div className='flex column font-s bg-white'>
                                         <a className='' href="/about">About us</a>
                                         <a className='' href="/members">Meet the team</a>
                                     </div>
