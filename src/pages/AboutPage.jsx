@@ -1,7 +1,9 @@
 import React from 'react'
 import './AboutPage.css'
-import { BoardInfo } from "../components/AboutPage/BoardInfo"
-import IDCard from "../components/AboutPage/IDCard"
+import cssocietyLogo from  "../components/AboutPage/cssocietyLogoFavicon.png"
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+import { ImageItems } from'../components/ImageItems'
 
 
 function AboutPage() {
@@ -9,19 +11,14 @@ function AboutPage() {
     return (
         <>
             <div className='about-container'>
-                {/* id card */}
-
-                {BoardInfo.map((item) => {
-                    return(
-                        <IDCard team={item.team} image={item.image} name={item.name} pronouns={item.pronouns} description={item.description} chair={item.chair} />
-                    )
-                })}
-
                 <div className="about">
-                    <h1 className="heading">we are <span className="accented">CSSociety</span></h1>
-                        
-                        <p className="body-text">The Computer Science Society of Mount Holyoke College (CSSoc) is a group of student leaders who cultivate a supportive community of critically-thinking, impact-driven, team-playing computer science students on our women’s college campus.
-                            Our organization has taken on the tasks detailed in the mission because we are people who are committed to the growth and development of our community and department. We will tackle this mission by holding multiple events and programs which aim to:
+                    <img src={cssocietyLogo } alt = "cssLogo" style={{paddingTop: '1px', justifyContent: 'center', paddingLeft: "150px", paddingRight: "150px",}} /> 
+                    <h1 className="heading" style={{display: 'flex', justifyContent: 'center', fontWeight:600,}}> About<span className="accented" style={{display: 'flex', justifyContent: 'center', fontWeight:600,}}>&nbsp;CSSociety</span></h1>
+                        <p className="body-text" style={{display: 'flex', justifyContent: 'center', fontWeight:600, paddingLeft: "250px", paddingRight: "250px",}}>The Computer Science Society of Mount Holyoke College (CSSoc) is a group of student leaders who cultivate a supportive community of critically-thinking, impact-driven, team-playing computer science students on our women’s college campus.
+                            Our organization has taken on the tasks detailed in the mission because we are people who are committed to the growth and development of our community and department. We will tackle this mission by holding multiple events and programs which aim to: 
+                        </p> 
+                        <br/>
+                        <p className="body-text" style={{display: 'flex', justifyContent: 'center', fontWeight:600,}}>
                             <ul className = "body-text" style={{marginleft: "12%"}}>
                                 <li> Unveil the many facets of computer science that appeal to liberal arts students </li>
                                 <li> Empower students to recognize their own potential as leaders </li>
@@ -30,22 +27,18 @@ function AboutPage() {
                                 <li> Demystify computer science and technology for others</li>
                             </ul>   
                         </p>
-                    <div className="socialmedia">
-                        <h3>keep up with us on</h3>
-                        <a href="https://www.facebook.com/wearecssociety">
-                            <img id="socials" src={"https://img.icons8.com/ios/50/000000/facebook.png"}/>
-                        </a>
-                        <a href="https://www.linkedin.com/company/computer-science-society/">
-                            <img id="socials" src={"https://img.icons8.com/ios/50/000000/linkedin.png"}/>
-                            
-                        </a>
-                        <a href="https://www.instagram.com/mhc_cssociety/">
-                            <img id="socials" src={"https://img.icons8.com/ios/50/000000/instagram-new--v1.png"}/>
-                        </a>
-                    </div>
                 </div>)
             </div>
-
+            <div className="slide-container">
+                <Fade>
+                    {ImageItems.map((card) => 
+                        <div className="each-fade">
+                            <img  width="30%" height="20%" src={card.src} />
+                        </div>
+                    )}
+                </Fade>
+            </div>
+            
         </>
     )
 }

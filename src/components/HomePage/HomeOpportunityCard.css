@@ -1,6 +1,7 @@
 .opportunity-card-container {
     width: 47%;
     height: 80px;
+    margin: 1%;
     border: 1px solid lightgrey;
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
