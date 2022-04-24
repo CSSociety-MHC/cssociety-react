@@ -1,3 +1,13 @@
 .home-container {
     padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.read-more-btn {
+    background-color: #25467A;
+    color: white;
+    border: 1px #25467A solid;
+    border-radius: 4px;
+    padding: 8px 12px;
 }

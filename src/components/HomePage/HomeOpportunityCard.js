@@ -4,9 +4,9 @@ import "./HomeOpportunityCard.css"
 function HomeOpportunityCard({title, url, deadline}) {
 
     return(
-        <div style={{border: '1px solid'}} onClick={() => window.location.href={url} }>
-            <h5>{title}</h5>
-            <p>{deadline.toDateString()}</p>
+        <div className='opportunity-card-container flex column wrap justify-center' onClick={() => window.location.href=url}>
+            <p className='flex justify-center font-m bold'>{title}</p>
+            <p className='padding-top-8 flex justify-center'>~ {deadline.toDateString()}</p>
         </div>
     )
 }

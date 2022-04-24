@@ -1,0 +1,13 @@
+.opportunity-card-container {
+    width: 47%;
+    height: 80px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.opportunity-card-container:hover {
+    cursor: pointer;
+    border: 2px solid lightgrey;
+    background-color: #F0F0FF;
+}
