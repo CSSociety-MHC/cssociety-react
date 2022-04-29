@@ -20,12 +20,20 @@
   flex-wrap: wrap;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .justify-center {
   justify-content: center;
 }
 
 .justify-spacebtw {
   justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .width-40pc {
@@ -139,6 +147,10 @@
   padding-left: 12px;
 }
 
+.padding-left-240 {
+  padding-left: 240px;
+}
+
 .padding-right-4 {
   padding-right: 4px;
 }
@@ -149,4 +161,8 @@
 
 .padding-right-12 {
   padding-right: 12px;
+}
+
+.padding-right-240 {
+  padding-right: 240px;
 }
