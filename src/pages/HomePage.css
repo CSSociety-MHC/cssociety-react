@@ -10,4 +10,5 @@
     border: 1px #25467A solid;
     border-radius: 4px;
     padding: 8px 12px;
+    cursor: pointer;
 }

@@ -25,7 +25,7 @@ function EventPage() {
                     </div>
                 </div>
                 <div style={{paddingLeft: '5%'}}>
-                    <p className='padding-top-32 font-ml bold'>Past Events</p>
+                    <p className='padding-top-64 font-ml bold'>Past Events</p>
                     <div className='padding-top-16 flex wrap'>
                         {pastEvent.sort((a,b) => b.date - a.date).map((card) => 
                             <HomeEventsCard key={card.id} title={card.title} url={card.url} thumbnail={card.thumbnail} location={card.location} date={card.date} startTime={card.startTime} duration={card.duration}/>
