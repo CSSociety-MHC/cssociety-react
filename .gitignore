@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# firebase
+firebase.json
+package-lock.json
+.firebaserc
+/.firebase
+
+
 # dependencies
 /node_modules
 /.pnp
